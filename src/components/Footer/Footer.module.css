@@ -1,0 +1,70 @@
+.footer {
+    background: #fff;
+    position: relative;
+    top: 4rem;
+}
+
+.title {
+    margin-bottom: -1.5rem;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 10rem;
+    margin-left: 3rem;
+    margin-top: -1.5rem;
+}
+
+.box {
+    position: relative;
+    left: 2rem;
+}
+
+.box h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+    padding: 1rem 0;
+    margin-left: 4rem;
+}
+
+.box p {
+    line-height: 1.8;
+    font-size: 1.5rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+    margin-left: -4.5rem;
+}
+
+.box .navlink {
+    line-height: 4rem;
+    border-radius: 0.5rem;
+    font-size: 3rem;
+    color: var(--black);
+    margin-left: 2rem;
+    position: relative;
+    right: 2rem;
+    top: 1rem;
+    background: #eee;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.box .navlink:hover {
+    background: var(--lime);
+    color: #fff;
+}
+
+.box .links {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+    margin-left: -4.5rem;
+}
+
+.box .links:hover {
+    padding-right: 2rem;
+}

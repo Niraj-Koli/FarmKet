@@ -1,0 +1,32 @@
+.input-field input {
+    height: 100%;
+    width: 60%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+    border: 1px solid #d1d1d1;
+    font-size: 18px;
+}
+
+.btn {
+    margin: 20px 0 6px;
+}
+
+button {
+    height: 5rem;
+    width: 20rem;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border: solid black;
+}
+
+button:hover {
+    background-color: lime;
+    color: white;
+}

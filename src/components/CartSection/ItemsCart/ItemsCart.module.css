@@ -1,0 +1,126 @@
+.cart {
+    margin-top: 7rem;
+    margin-bottom: -3rem;
+}
+
+.heading {
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    margin-bottom: -1rem;
+    font-size: 3.5rem;
+    color: var(--black);
+}
+
+.heading span {
+    background: var(--lime);
+    color: #fff;
+    display: inline-block;
+    padding: 0.5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+.box-container {
+    margin: 0;
+    padding: 0;
+    padding-top: 5rem;
+    background: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border: 3rem solid #fff;
+}
+
+.box {
+    width: 150rem;
+    height: 85%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #fff;
+}
+
+.actions {
+    text-align: right;
+}
+
+.actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color: #5a1a01;
+    border-color: #5a1a01;
+    color: white;
+}
+
+.actions .button {
+    background-color: #8a2b06;
+    color: white;
+}
+
+.cart-navbar {
+    margin-top: -6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.items-heading {
+    font-size: 2.5rem;
+    position: relative;
+    left: 5.5rem;
+}
+
+.items-about {
+    font-size: 2.5rem;
+    position: relative;
+    left: 6.7rem;
+}
+
+.items-quantity {
+    font-size: 2.5rem;
+    position: relative;
+    left: 4.3rem;
+}
+
+.items-price {
+    font-size: 2.5rem;
+    position: relative;
+    right: 3rem;
+}
+
+.hr {
+    border-top: 1px solid #ccc;
+}
+
+.cart-total {
+    width: 50%;
+    margin: 2rem auto -0.5rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.total-amount {
+    font-size: 2.8rem;
+    margin: -1.5rem 0;
+}
+
+.total-price {
+    font-size: 3rem;
+    margin: 1.5rem;
+    font-weight: bold;
+}

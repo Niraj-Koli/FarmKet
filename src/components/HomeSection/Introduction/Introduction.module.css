@@ -1,0 +1,50 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../../../images/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    margin-top: 8rem;
+    margin-bottom: -8rem;
+}
+
+.content {
+    text-align: center;
+    width: 60rem;
+}
+
+h3 {
+    color: var(--black);
+    font-size: 3rem;
+}
+
+span {
+    color: var(--lime);
+}
+
+p {
+    color: var(--black);
+    font-size: 1.9rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.navlink {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid var(--black);
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+}
+
+.navlink:hover {
+    background: var(--lime);
+    color: #fff;
+}

@@ -1,0 +1,56 @@
+.box {
+    padding: 3rem 2rem;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+}
+
+.box:hover {
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+.box img {
+    margin: 1rem 0;
+    height: 15rem;
+}
+
+.box h3 {
+    font-size: 2.2rem;
+    color: var(--black);
+    line-height: 1.8;
+}
+
+.box h4 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: var(--black);
+    line-height: 1.8;
+}
+
+.box p {
+    font-size: 1.7rem;
+    color: var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.navlink {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid var(--black);
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+}
+
+.navlink:hover {
+    background: var(--lime);
+    color: #fff;
+}

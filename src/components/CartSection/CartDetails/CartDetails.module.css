@@ -1,0 +1,94 @@
+.cart-item {
+    list-style: none;
+}
+
+.item-bucket {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+    width: 100%;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    outline-offset: -1rem;
+    background: #fff;
+}
+
+.item-bucket:hover {
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+.item-img {
+    margin: 2.5rem;
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid #000;
+}
+
+.about {
+    margin: 3rem;
+    text-align: center;
+}
+
+.about-title {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.about-description {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.about-quantity {
+    margin: -1rem;
+    font-size: 1.5rem;
+}
+
+.actions {
+    width: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.onAdd,
+.onRemove {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.actions-amount {
+    font-size: 2.1rem;
+    margin: 0 1.5rem;
+}
+
+.actions button {
+    cursor: pointer;
+    border-radius: 1rem;
+    border: 1px solid #000;
+    width: 5rem;
+    height: 4.5rem;
+}
+
+.actions button:hover {
+    background: var(--lime);
+    color: #fff;
+}
+
+.value {
+    align-items: left;
+    margin: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 2.5rem;
+    margin: 0 1.5rem;
+    font-weight: normal;
+}

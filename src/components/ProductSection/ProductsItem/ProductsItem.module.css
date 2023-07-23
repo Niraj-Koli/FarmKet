@@ -1,0 +1,74 @@
+.box {
+    background: #fff;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: 0.2s linear;
+    width: 407px;
+    margin: 0.4rem;
+}
+
+.box:hover {
+    outline-offset: 0rem;
+    outline: var(--outline-hover);
+}
+
+.title {
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.img {
+    height: 20rem;
+}
+
+.description {
+    font-size: 1.8rem;
+    color: var(--light-color);
+}
+
+.price {
+    font-size: 2rem;
+    color: var(--black);
+    padding: 0.5rem 0;
+}
+
+.quantity {
+    font-size: 1.5rem;
+    color: var(--light-color);
+    padding: 0.5rem 0;
+}
+
+.input-field input {
+    height: 100%;
+    width: 60%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+    border: 1px solid #d1d1d1;
+    font-size: 18px;
+}
+
+.button {
+    margin: 20px 0 6px;
+}
+
+.button input {
+    height: 5rem;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: solid black;
+}
+
+.button input:hover {
+    background-color: lime;
+    color: white;
+}
