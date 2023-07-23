@@ -1,3 +1,12 @@
+# FarmKet - React
+
+A E-commerce site used to sell fresh and organic using React, Firebase Database and AWS Cognito.
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
